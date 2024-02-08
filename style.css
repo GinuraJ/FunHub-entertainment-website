@@ -1,0 +1,761 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 90rem;
+    margin: auto;
+}
+.content {
+    background-image: url(images_student_2/lady.jpeg);
+    max-width: 100%;
+    height: 500px;
+    background-size: 100%;
+}
+.main_topic {
+    width: 80%;
+    margin: 0 auto;
+}
+.topic_content {
+    width: 50%;
+    margin-top: 100px;
+}
+.topic_line_1 {
+    padding-top: 40px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 75px;
+}
+.topic_line_2 {
+    color: #616A6B;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    padding-top: 30px;
+}
+.sections {
+    width: 75%;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.sec_details_1 {
+    font-family: 'Bruno Ace SC', cursive;
+    padding: 7px;
+    text-align: center;
+    cursor: default;
+}
+.sec_details_2 {
+    font-family: 'Lato', sans-serif;
+    padding: 1px 10px;
+    text-align: start;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    color: #ebedefce;
+    cursor: default;
+}
+.sec_details_btn {
+    text-decoration: none;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: #EAEDED;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: 0.5s;
+}
+.sec_details_btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: #EAEDED;
+    transition: 0.5s;
+}
+.sec_details {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #747a7a;
+    color: aliceblue;
+    opacity: 0;
+    transition: 0.5s;
+}
+.gallery_details {
+    height: 100%;
+    border-radius: 10px;
+    opacity: 1;
+    transition: 0.5s;
+    position: relative;
+}
+.gallery_details a {
+    text-decoration: none;
+    color: white;
+}
+.gallery_label_1:hover,
+.gallery_label_2:hover {
+    background-color: #909090;
+}
+.sec_1,
+.sec_2,
+.sec_3,
+.sec_4,
+.sec_5 {
+    width: 200px;
+    height: 300px;
+    margin-top: 40px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.sec_1:hover,
+.sec_2:hover,
+.sec_3:hover,
+.sec_4:hover {
+    transition: 0.5s;
+    transform: translate(-5px, -7px);
+    box-shadow: 5px 7px 15px 1px rgba(0, 0, 0, 0.75);
+}
+.sec_1:hover .sec_details,
+.sec_2:hover .sec_details,
+.sec_3:hover .sec_details,
+.sec_4:hover .sec_details {
+    transition: 0.5s;
+    opacity: 1;
+}
+.sec_1 {
+    background-image: url(images_student_2/section_images/film.jpg);
+    background-size: cover;
+}
+.sec_2 {
+    background-image: url(images_student_2/section_images/music1.jpeg);
+    background-size: cover;
+}
+.sec_3 {
+    background-image: url(images_student_2/section_images/gaming.jpeg);
+    background-size: cover;
+}
+.sec_4 {
+    background-image: url(images_student_2/section_images/perfoming\ art.jpeg);
+    background-size: cover;
+}
+.sec_5 {
+    background-image: url(images_student_2/section_images/gallery.jpg);
+    background-size: cover;
+    overflow: hidden;
+    border: none;
+}
+.gallery_label_1 {
+    transform: rotate(35deg);
+    position: absolute;
+    background-color: red;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 7px 40px;
+    width: 80px;
+    top: 12px;
+    left: 85px;
+}
+.gallery_label_2 {
+    transform: rotate(35deg);
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 7px 85px;
+    width: 80px;
+    top: 35px;
+    left: -10px;
+}
+.content_film_page {
+    background-image: url(images_student_2/lady\ watching\ a\ movie.jpg);
+}
+.content_film_page {
+    max-width: 100%;
+    height: 600px;
+    background-size: 100%;
+    margin-top: 100px;
+}
+.film_topic {
+    width: 80%;
+    margin: 20px auto;
+}
+.film_topic_1 {
+    color: #000000;
+    padding-top: 40px;
+    font-family: 'Bruno Ace SC';
+    font-size: 75px;
+}
+.film_nav {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #EAEDED;
+    gap: 40px;
+    text-align: center;
+}
+.film_nav a {
+    text-decoration: none;
+    color: #131313;
+    font-family: 'Lato';
+    font-size: 18px;
+}
+.film_nav a:hover {
+    color: #707070;
+}
+.page_discription {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.page_discription_content {
+    max-width: 50%;
+    line-height: 2;
+    margin-top: -400px;
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #616A6B;
+    margin-bottom: 20px;
+}
+.film_page_nav {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.film_page_nav a {
+    text-decoration: none;
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-family: 'Lato';
+    color: #3B373B;
+    border: 2px solid #656E77;
+    transition: 0.5s;
+}
+.film_page_nav a:hover {
+    background-color: #5d6268;
+    border: 2px solid #ffffff;
+    color: #EAEDED;
+    transition: 0.5s;
+}
+#last_nav {
+    background-color: #5d6268;
+    border: 2px solid #ffffff;
+    color: #EAEDED;
+}
+#last_nav:hover {
+    background-color: #CAD4DF;
+    border: 2px solid #656E77;
+    color: #3B373B;
+    transition: 0.5s;
+}
+.benefits_section {
+    margin-top: 80px;
+}
+.benefits {
+    width: 100%;
+    height: 500px;
+    background-color: #7f8c8d;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+.benefits img {
+    width: 100%;
+    margin-top: -20px;
+}
+.benefit_content {
+    padding: 20px 80px 20px 20px;
+    height: 400px;
+    background-color: #F2F3F4;
+    margin-top: 50px;
+}
+.benefit_content_1 {
+    font-family: 'Bruno Ace SC', cursive;
+    color: #7f8c8d;
+    font-size: 30px;
+}
+.benefit_content_2 {
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #616A6B;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.benefits_btns {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #FDFEFE;
+    margin-top: -400px;
+    margin-left: 1180px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.benefits_btn_1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    opacity: 50%;
+    transition: 0.5s;
+}
+.benefits_btn_1:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s;
+}
+.stress {
+    background-color: #237ec3;
+}
+.culture {
+    background-color: #7f8c8d;
+}
+.language {
+    background-color: #e74d3c;
+}
+.motivation {
+    background-color: #bc7fd6;
+}
+.insight {
+    background-color: #11a083;
+}
+.current_btn {
+    opacity: 100%;
+    box-shadow: 5px 7px 15px 1px rgba(0, 0, 0, 0.75);
+}
+.movies {
+    max-width: 76rem;
+    margin: 50px auto;
+    margin-top: 150px;
+}
+.popular,
+.kids,
+.award_winnings,
+.best_actors,
+.u_wanna_more {
+    margin-top: 80px;
+}
+.topic_and_btn {
+    display: flex;
+    justify-content: space-between;
+}
+.popular_movies,
+.kids_movies {
+    position: relative;
+    overflow: hidden;
+    max-width: 76rem;
+    height: 350px;
+}
+.award_winnings_movies {
+    margin-top: 40px;
+    height: 700px;
+    display: grid;
+    grid-template-areas:
+        'award_movie_1 award_movie_1 award_movie_2 award_movie_3'
+        'award_movie_1 award_movie_1 award_movie_4 award_movie_4 '
+        'award_movie_5 award_movie_6 award_movie_4 award_movie_4 '
+        'award_movie_7 award_movie_7 award_movie_8 award_movie_9 '
+        'award_movie_7 award_movie_7 award_movie_10 award_movie_11 '
+    ;
+    grid-gap: 10px;
+}
+.award_winnings_link {
+    position: relative;
+}
+.award_movie_1 {
+    grid-area: award_movie_1;
+    background-image: url(images_student_2/awardwinnings_movies/dune2021.jpeg);
+    background-size: cover;
+}
+.award_movie_2 {
+    grid-area: award_movie_2;
+    background-image: url(images_student_2/awardwinnings_movies/coda2021.jpeg);
+    background-size: cover;
+}
+.award_movie_3 {
+    grid-area: award_movie_3;
+    background-image: url(images_student_2/awardwinnings_movies/Encanto2021\ copy.jpg);
+    background-size: cover;
+}
+.award_movie_4 {
+    grid-area: award_movie_4;
+    background-image: url(images_student_2/awardwinnings_movies/kingrichard2021.jpeg);
+    background-size: cover;
+}
+.award_movie_5 {
+    grid-area: award_movie_5;
+    background-image: url(images_student_2/awardwinnings_movies/slumdog2008.jpeg);
+    background-size: cover;
+}
+.award_movie_6 {
+    grid-area: award_movie_6;
+    background-image: url(images_student_2/awardwinnings_movies/beautifulmind2001.jpeg);
+    background-size: cover;
+}
+.award_movie_7 {
+    grid-area: award_movie_7;
+    background-image: url(images_student_2/awardwinnings_movies/taitanic1994.jpeg);
+    background-size: cover;
+}
+.award_movie_8 {
+    grid-area: award_movie_8;
+    background-image: url(images_student_2/awardwinnings_movies/forrest1994.jpeg);
+    background-size: cover;
+}
+.award_movie_9 {
+    grid-area: award_movie_9;
+    background-image: url(images_student_2/awardwinnings_movies/shape\ of\ water\ 2017.jpeg);
+    background-size: cover;
+}
+.award_movie_10 {
+    grid-area: award_movie_10;
+    background-image: url(images_student_2/awardwinnings_movies/inlove\ 1998.jpeg);
+    background-size: cover;
+}
+.award_movie_11 {
+    grid-area: award_movie_11;
+    background-image: url(images_student_2/awardwinnings_movies/baby2004.jpeg);
+    background-size: cover;
+}
+.award_movie_link {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #515a5ac7;
+    transition: 0.9s;
+}
+.award_winnings_link:hover .award_movie_link {
+    opacity: 1;
+}
+.award_movie_link a {
+    font-size: 22px;
+    font-family: 'Lato';
+    text-decoration: none;
+    color: #F8F9F9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.award_movie_link a:hover {
+    text-decoration: underline;
+}
+.best_actors_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.actor {
+    width: 160px;
+    text-align: center;
+}
+.actor_pic {
+    width: 100%;
+    transition: 0.5s;
+}
+.actor_pic:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.actor_name {
+    margin-top: 10px;
+    font-family: 'Lato';
+    color: #515A5A;
+}
+.actor_img_container {
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.best_actors_seemore {
+    font-family: 'Lato';
+    font-size: 20px;
+    color: #1A5276;
+    margin-left: 90%;
+    margin-top: 40px;
+}
+.best_actors_seemore:hover {
+    color: #3B373B;
+}
+.u_wanna_more_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 125px;
+}
+.u_wanna_more_content_left_img {
+    width: 100%;
+}
+.u_wanna_more_content_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F2F4F4;
+    border-right: 5px solid #64B4BD;
+}
+.u_wanna_more_content_right_1 {
+    color: #64B4BD;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.u_wanna_more_content_right_2 {
+    font-family: 'Lato';
+    line-height: 1.5;
+    font-size: 18px;
+    color: #515A5A;
+}
+.u_wanna_more_content_right_btn {
+    background-color: #ffffff;
+    border: 5px solid #64B4BD;
+    color: #64B4BD;
+    padding: 7px 12px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    margin-left: 65%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    transition: 0.5s;
+}
+.fa-cart-shopping {
+    margin-top: 4px;
+}
+.u_wanna_more_content_right_btn:hover {
+    background-color: #64B4BD;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.movie_1,
+.movie_2 {
+    margin-top: 20px;
+    width: 225px;
+    height: 350px;
+    background-color: #424949;
+    position: absolute;
+    transition: 0.5s;
+}
+.movies_topic_1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.btn_btn_btn {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.movie_discription {
+    display: flex;
+    flex-direction: column;
+    color: #DDC6B6;
+    background-color: #262223;
+    margin-top: 110%;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    opacity: 0;
+    transition: 0.5s;
+}
+.movie_discription_btn {
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+    margin-top: -30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    transition: 0.5s;
+    background-color: #FFFFD2;
+}
+.movie_discription_btn:hover {
+    background-color: #C5FAD5;
+    color: #4d4d4d;
+    transition: 0.5s;
+}
+.movie_1:hover .movie_discription {
+    opacity: 1;
+    transition: 0.5s;
+}
+.buttel_train {
+    background-image: url(images_student_2/popular_movies/bullet_train.jpeg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.days365 {
+    background-image: url(images_student_2/popular_movies/365days.jpeg);
+    background-size: cover;
+}
+.topgun {
+    background-image: url(images_student_2/popular_movies/topgun.jpeg);
+    background-size: cover;
+}
+.smile {
+    background-image: url(images_student_2/popular_movies//smile.avif);
+    background-size: cover;
+}
+.super_mario {
+    background-image: url(images_student_2/popular_movies/super_mario.jpeg);
+    background-size: cover;
+}
+.pathaan {
+    background-image: url(images_student_2/popular_movies/pathaan.jpeg);
+    background-size: cover;
+}
+.fastx {
+    background-image: url(images_student_2/popular_movies/fastx.jpeg);
+    background-size: cover;
+}
+.jurasic {
+    background-image: url(images_student_2/popular_movies/jurasic.jpeg);
+    background-size: cover;
+}
+.hypnotic {
+    background-image: url(images_student_2/popular_movies/hypnotic.jpeg);
+    background-size: cover;
+}
+.beast {
+    background-image: url(images_student_2/popular_movies/beast.jpeg);
+    background-size: cover;
+}
+.movie_discription_box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    z-index: 99;
+    width: 1000px;
+    height: 600px;
+    background-color: #212f3df7;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.movie_discription_box img {
+    height: 600px;
+}
+.movie_discription_box_content {
+    padding: 20px;
+}
+.movie_discription_box_content_1 {
+    font-family: 'Bruno Ace SC';
+    font-size: 50px;
+    color: #FDFEFE;
+}
+.movie_discription_box_content_2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #fdfefeba;
+}
+.movie_discription_box_content_3 {
+    font-family: 'Lato';
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #AAB7B8;
+}
+.movie_discription_box_content_4 {
+    margin-top: 20px;
+    font-family: 'Lato';
+}
+.director,
+.writer,
+.actors {
+    margin-top: 10px;
+    color: #909497;
+}
+.director_name,
+.writer_name,
+.actors_name {
+    margin-top: 10px;
+    color: #237ec3;
+}
+.movie_discription_box_content_5 {
+    padding: 10px 20px;
+    border: 5px solid #99A3A4;
+    border-radius: 20px;
+    position: fixed;
+    top: 90%;
+    right: 2%;
+    text-decoration: none;
+    font-family: 'Lato';
+    color: #1C2833;
+    background-color: #3498DB;
+    transition: 0.5s;
+}
+.movie_discription_box_content_5:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.content_box_close_btn {
+    color: #186162f7;
+    font-size: 55px;
+    position: fixed;
+    top: -17px;
+    left: -17px;
+    border: none;
+    transition: 0.5s;
+}
+.content_box_close_btn:hover {
+    cursor: pointer;
+    color: #c41313f7;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.box_hidden {
+    display: none;
+}
+.box_view {
+    display: block;
+}
+.luck {
+    background-image: url(images_student_2/kids_movies/luck2022.jpeg);
+    background-size: cover;
+}
+.seabeast {
+    background-image: url(images_student_2/kids_movies/seabeast2022.jpeg);
+    background-size: cover;
+}
+.puss {
+    background-image: url(images_student_2/kids_movies/pussinboots2022.jpeg);
+    background-size: cover;
+}
+.hoteltrans {
+    background-image: url(images_student_2/kids_movies/hoteltrans2022.jpeg);
+    background-size: cover;
+}
+.spiderman {
+    background-image: url(images_student_2/kids_movies/spiderman2018.jpeg);
+    background-size: cover;
+}
+.minion {
+    background-image: url(images_student_2/kids_movies/minions2022.jpeg);
+    background-size: cover;
+}
+.cinderella {
+    background-image: url(images_student_2/kids_movies/cinderella2021.jpeg);
+    background-size: cover;
+}
+.bossbaby {
+    background-image: url(images_student_2/kids_movies/bossbaby2021.jpeg);
+    background-size: cover;
+}
+.sonic {
+    background-image: url(images_student_2/kids_movies/sonic.jpeg);
+    background-size: cover;
+}
+.croods {
+    background-image: url(images_student_2/kids_movies/croods2013.jpeg);
+    background-size: cover;
+}
+
