@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;1,200&family=Bruno+Ace+SC&family=Lato:wght@300;400;700&family=Lilita+One&family=Pacifico&family=Righteous&family=Rubik&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="navbar">
+            <img class="logo" src="images_student_2/main_logo.png" alt="logo">
+            <div class="nav_items">
+                <a class="home nav_items_a" href="main_page.html">Home</a>
+                <div class="nav_item_content">
+                    <p class="nav_item_content_1" style="background-color: #ebedefce;">Content</p>
+                    <div class="nav_item_content_2">
+                        <a class="nav_items_a nav_active nav_item_content_2_first" href="flim.html">Film</a>
+                        <a class="nav_items_a" href="music.html">Music</a>
+                        <a class="nav_items_a" href="gaming.html">Gaming</a>
+                        <a class="nav_items_a" href="art.html">Art</a>
+                        <a class="nav_items_a" href="gallery.html">Gallery</a>
+
+                    </div>
+                </div>
+                <a class="nav_items_a" href="comments.html">Comments</a>
+                <a class="nav_items_a" href="shop.html">Shop</a>
+                <a class="nav_items_a" href="quiz.html">Quiz</a>
+                <a class="nav_items_a" href="site_map.html">Site map</a>
+                <a class="nav_items_a " href="about_us.html">About us</a>
+                <a href="pageEditor_ginura.html"><i class="fa-solid fa-circle-user user_icon"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content_film_page">
+        <div class="film_topic">
+            <h1 class="film_topic_1">Film zone</h1>
+        </div>
+    </div>
+
+    <div class="page_discription">
+        <div class="page_discription_content">
+            <p>Film is a remarkably effective medium in conveying drama and especially in the evocation of emotion. The
+                art
+                of motion pictures is exceedingly complex, requiring contributions from nearly all the other arts as
+                well as
+                countless technical skills (for example, in sound recording, photography, and optics). Emerging at the
+                end
+                of the 19th century, this new art form became one of the most popular and influential media of the 20th
+                century and beyond.</p>
+        </div>
+        <div class="film_page_nav">
+            <a href="#popular">Popular Movies</a>
+            <a href="#kids">Kids Movies</a>
+            <a href="#benefits">Benefits</a>
+            <a id="last_nav" href="#award_winnings">Award winings</a>
+
+        </div>
+    </div>
+
+
+    <div class="movies">
+        <div class="popular" id="popular">
+            <div class="topic_and_btn">
+                <h1 class="movies_topic_1">Popular Movies</h1>
+                <div class="slide_btns">
+                    <i class="fa-solid fa-circle-chevron-left btn_btn_btn popular_left" style="color: #000000;"></i>
+                    <i class="fa-solid fa-circle-chevron-right btn_btn_btn popular_right" style="color: #000000;"></i>
+                </div>
+
+            </div>
+            <div class="popular_movies">
+                <div class="movie_1 buttel_train">
+                    <div class="movie_discription">
+                        <h2>Bullet Train</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_bullet_train_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+
+                </div>
+                <div class="movie_1 days365">
+                    <div class="movie_discription">
+                        <h2>365 Days</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_365days_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+                </div>
+                <div class="movie_1 topgun">
+                    <div class="movie_discription">
+                        <h2>Top Gun</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_topgun_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+                </div>
+                <div class="movie_1 smile">
+                    <div class="movie_discription">
+                        <h2>Smile</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_smile_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+                </div>
+                <div class="movie_1 super_mario">
+                    <div class="movie_discription">
+                        <h2>Super.M bros</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_mario_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+                </div>
+                <div class="movie_1 pathaan">
+                    <div class="movie_discription">
+                        <h2>Pathaan</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_pathaan_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+                </div>
+                <div class="movie_1 fastx">
+                    <div class="movie_discription">
+                        <h2>Fast X</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_fastx_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+                </div>
+                <div class="movie_1 jurasic">
+                    <div class="movie_discription">
+                        <h2>Jurasic.W Domi</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_jurasicworld_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+                </div>
+                <div class="movie_1 hypnotic">
+                    <div class="movie_discription">
+                        <h2>Hypnotic</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_hypnotic_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+                </div>
+                <div class="movie_1 beast">
+                    <div class="movie_discription">
+                        <h2>Beast</h2>
+                        <h4>2023</h4>
+                        <button onclick="open_beast_box()" class="movie_discription_btn"><i
+                                class="fa-solid fa-info"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="benefits_section" id="benefits">
+            <h1 class="movies_topic_1">How ?</h1>
+            <div class="benefits">
+                <img class="benefit_img" src="images_student_2/film_benefits/culture.jpeg" alt="culture image">
+                <div class="benefit_content">
+                    <h2 class="benefit_content_1">Learning about new cultures</h2>
+                    <p class="benefit_content_2">History buffs have plenty of options when it comes to movies. It can
+                        show us new things about the culture that we probably did not know. We gain many things, such as
+                        a country’s history or a new culture, and then we realize some influential figures in the world.
+                        Educating ourselves on a country’s history may instill a sense of nationalism in us. It is the
+                        same when we watch historical movies from other countries.</p>
+                </div>
+            </div>
+            <div class="benefits_btns">
+                <button onclick="cultuure_btn()" class="benefits_btn_1 culture current_btn"></button>
+                <button onclick="language_btn()" class="benefits_btn_1 language"></button>
+                <button onclick="motivation_btn()" class="benefits_btn_1 motivation"></button>
+                <button onclick="insight_btn()" class="benefits_btn_1 insight"></button>
+                <button onclick="stress_btn()" class="benefits_btn_1 stress "></button>
+
+            </div>
+        </div>
+
+        <div class="kids" id="kids">
+            <div class="topic_and_btn">
+                <h1 class="movies_topic_1">Popular family-friendly movies</h1>
+                <div class="slide_btns">
+                    <i class="fa-solid fa-circle-chevron-left kids_left btn_btn_btn" style="color: #000000;"></i>
+                    <i class="fa-solid fa-circle-chevron-right kids_right btn_btn_btn" style="color: #000000;"></i>
+                </div>
+
+            </div>
+            <div class="kids_movies">
+                <div class="luck movie_2"></div>
+                <div class="croods movie_2"></div>
+                <div class="minion movie_2"></div>
+                <div class="hoteltrans movie_2"></div>
+                <div class="spiderman movie_2"></div>
+                <div class="puss movie_2"></div>
+                <div class="cinderella movie_2"></div>
+                <div class="bossbaby movie_2"></div>
+                <div class="sonic movie_2"></div>
+                <div class="seabeast movie_2"></div>
+            </div>
+        </div>
+
+        <div class="award_winnings" id="award_winnings">
+            <div class="topic_and_btn">
+                <h1 class="movies_topic_1">Award Winning Movies</h1>
+            </div>
+            <div class="award_winnings_movies">
+                <div class="award_movie_1 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=Way9Dexny3w">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_2 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=0pmfrE1YL4I">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_3 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=CaimKeDcudo">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_4 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=BKP_0z52ZAw">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_5 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=AIzbwV7on6Q">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_6 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=EajIlG_OCvw">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_7 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=CHekzSiZjrY">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_8 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=bLvqoHBptjg">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_9 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=XFYWazblaUA">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_10 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=gk1rTKB6ZF8">Watch trailer</a>
+                    </div>
+                </div>
+                <div class="award_movie_11 award_winnings_link">
+                    <div class="award_movie_link">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=5_RsHRmIRBY">Watch trailer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="best_actors">
+            <div class="topic_and_btn">
+                <h1 class="movies_topic_1">Best Actors</h1>
+            </div>
+            <div class="best_actors_list">
+                <div class="actor">
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/leonardo.webp" alt="actor image">
+                    </div>
+                    <p class="actor_name">Leonardo DiCaprio</p>
+                </div>
+                <div class="actor">
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/tom_new.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Tom Hanks</p>
+                </div>
+                <div class="actor">
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/denze.jpeg" alt="actor image">
+                    </div>
+
+                    <p class="actor_name">Denzel Washington
+                    </p>
+                </div>
+
+                <div class="actor">
+
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/robert.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Robert De Niro
+                    </p>
+
+                </div>
+                <div class="actor">
+
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/johnny.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Johnny Depp</p>
+
+                </div>
+                <div class="actor">
+
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/tom_cruise.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Tom Cruise
+                    </p>
+
+                </div>
+                <div class="actor">
+
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/al.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Al Pacino
+                    </p>
+
+                </div>
+                <div class="actor">
+
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/bale.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Christian Bale
+                    </p>
+
+                </div>
+                <div class="actor">
+
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/samuel.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Samuel L. Jackson
+                    </p>
+
+                </div>
+                <div class="actor">
+
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/brad.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Brad Pitt</p>
+
+                </div>
+                <div class="actor">
+
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/jauquin.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Joaquin Phoenix
+                    </p>
+
+                </div>
+                <div class="actor">
+
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/jack.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Jack Nicholson
+                    </p>
+
+                </div>
+                <div class="actor">
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/morgan.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Morgan Freeman
+                    </p>
+
+                </div>
+                <div class="actor">
+                    <div class="actor_img_container">
+                        <img class="actor_pic" src="images_student_2/best_actors/downey.jpeg" alt="actor image">
+                    </div>
+                    <p class="actor_name">Robert Downey Jr.
+                    </p>
+
+                </div>
+
+            </div>
+            <a class="best_actors_seemore" target="_blank" href="https://www.imdb.com/list/ls054840033/">See more
+                &#x2192; </a>
+        </div>
+
+        <div class="u_wanna_more">
+            <div class="topic_and_btn">
+                <h1 class="movies_topic_1">More Excited ?</h1>
+            </div>
+            <div class="u_wanna_more_content">
+                <div class="u_wanna_more_content_left">
+                    <img class="u_wanna_more_content_left_img" src="images_student_2/go_to_store_page_pic.jpg"
+                        alt="store image">
+                </div>
+                <div class="u_wanna_more_content_right">
+                    <h1 class="u_wanna_more_content_right_1">Need more </h1>
+                    <p class="u_wanna_more_content_right_2">Are you tired of boring evenings with nothing exciting to
+                        do? Say goodbye to dull moments and
+                        embrace non-stop entertainment with FunFlix! Our revolutionary product is designed to bring
+                        endless joy and amusement to your life. Whether you're a movie enthusiast, a gaming fanatic, or
+                        simply looking to unwind after a long day, FunFlix has got you covered! you'll have a world of
+                        movies and TV shows at your fingertips. Stream your favorite blockbusters, binge-watch popular
+                        series, and discover hidden gems from a vast library of cinematic masterpieces. Moreover, Get
+                        ready to embark on thrilling virtual adventures with FunFlix's extensive gaming collection.</p>
+
+
+                    <a href="shop.html" class="u_wanna_more_content_right_btn"><i
+                            class="fa-sharp fa-solid fa-cart-shopping"></i>store</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="box_hidden" class="box_hidden">
+        <div class="movie_discription_box">
+            <img class="movie_discription_box_content_img" src="img/popular_movies/bullet_train.jpeg" alt="movie image">
+            <div class="movie_discription_box_content">
+                <h1 class="movie_discription_box_content_1">Movie Topic</h1>
+                <h2 class="movie_discription_box_content_2">2022 | 2h 7min</h2>
+                <p class="movie_discription_box_content_3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur
+                    iure, quasi quo voluptate expedita at praesentium? Nobis dolor harum ab est temporibus consequuntur
+                    mollitia quam, inventore saepe eius at vero?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus, alias accusantium aperiam nisi labore modi animi quod consectetur recusandae molestiae
+                    suscipit id qui minus nihil. Ducimus asperiores nihil reprehenderit quod?</p>
+
+                <div class="movie_discription_box_content_4">
+                    <h3 class="director">Director : <span class="director_name">Ginura Premawardana</span></h3>
+                    <h3 class="writer">Writer : <span class="writer_name">Ginura Premawardana</span></h3>
+                    <h3 class="actors">Actors : <span class="actors_name">Ginura, Jithamal premawrdana</span></h3>
+                </div>
+                <a target="_blank" href="#" class="movie_discription_box_content_5">Watch trailer</a>
+                <i onclick="close_box()" class="fa-sharp fa-solid fa-rectangle-xmark content_box_close_btn"></i>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer_content">
+            <div class="logo_content">
+                <img class="footer_logo" src="images_student_2/main_logo.png" alt="logo">
+            </div>
+            <div class="column_1">
+                <h1 class="column_topic">Contact Info</h1>
+                <div class="column_content">
+                    <div class="contactlist">
+                        <i class="fa-solid fa-phone contact_icon"></i>
+                        <a href="tel:+94760000000">+947xxxxxxxxx</a>
+                    </div>
+                    <div class="contactlist">
+                        <i class="fa-solid fa-envelope contact_icon"></i>
+                        <a href="mailto:sample.project@gmail.com">sample.project@gmail.com</a>
+                    </div>
+
+                    <div class="contactlist">
+                        <i class="fa-brands fa-linkedin contact_icon"></i>
+                        <a target="_blank" href="google.com">linkedin</a>
+                    </div>
+                    <div class="contactlist">
+                        <i class="fa-brands fa-square-instagram contact_icon"></i>
+                        <a target="_blank" href="https://www.instagram.com/iitlife/">Instagram</a>
+                    </div>
+                    <div class="contactlist">
+                        <i class="fa-solid fa-location-pin contact_icon"></i>
+                        <a target="_blank"
+                            href=" https://www.google.com/maps/d/viewer?mid=1nxxfsdOOs2x2HPEsNV-YlJDLFzM&hl=en&ll=6.921842394037655%2C79.85620550000003&z=13">Colombo,Sri
+                            Lanka</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column_2">
+                <h1 class="column_topic">Categories</h1>
+                <div class="column_content">
+                    <a href="flim.html">Film Zone page</a>
+                    <a href="music.html">Music page</a>
+                    <a href="art.html">Perform Art page</a>
+                    <a href="sports.html">Sports page</a>
+                    <a href="gaming.html">Video Gaming page</a>
+                    <a href="aboutus.html">About Us</a>
+
+                </div>
+            </div>
+            <div class="column_3">
+                <h1 class="column_topic">Useful links</h1>
+                <div class="column_content">
+                    <a target="_blank" href="https://www.imdb.com">IMDB News</a>
+                    <a target="_blank" href="https://www.netflix.com/browse">Netflix</a>
+                    <a target="_blank" href="https://open.spotify.com">Spotifi</a>
+                    <a target="_blank" href="https://www.deviantart.com">DeviantArt</a>
+                    <a target="_blank" href="https://www.fandom.com">Fandom</a>
+                    <a target="_blank" href="https://www.boredpanda.com">Boredpanda</a>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p>Copyright &copy; 2023 | All rights reserved. | Created By Ginura / Dinal / Promodh / Dunura</p>
+    </footer>
+
+    <script src="film.js"></script>
+</body>
+
+</html>
