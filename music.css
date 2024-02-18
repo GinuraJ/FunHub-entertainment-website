@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.column_topic {
+    font-family: 'Bruno Ace SC';
+    font-size: 25px;
+    color: #424b4b;
+    padding: 25px 0;
+}
+
+.contact_icon {
+    color: #7b8586;
+    font-size: 25px;
+}
+
+.contactlist a {
+    text-decoration: underline;
+    font-family: 'Lato';
+    color: #424949;
+    margin-left: 10px;
+}
+
+.column_content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.column_content a {
+    text-decoration: none;
+    font-family: 'Lato';
+    color: #424949;
+}
+
+.column_content a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+    height: 2px;
+    background-color: #616A6B;
+}
+
+footer p {
+    font-family: 'Lato';
+    color: #515A5A;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.music_content {
+    max-width: 50%;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    padding-top: 30px;
+    opacity: 80%;
+}
+
+.Top_10 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.top10_albem {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 750px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+}
+
+.top_to_topic {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bruno Ace SC';
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.Top_10 a{
+    background-color:#f08089;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: rgb(246, 220, 172);
+}
+
+.Top_10 a:hover{
+    background-color: rgb(246, 220, 172);
+    color: #F08080;
+}
+
+
+.Top_10 a {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.album_Box1 {
+
+    background-image: url(images_student_4/img/a6.PNG);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.album_Box2 {
+    background-image: url(images_student_4/img/a1.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.album_Box3 {
+    background-image: url(images_student_4/img/a2.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.album_Box4 {
+    background-image: url(images_student_4/img/a7.png);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.album_Box5 {
+    background-image: url(images_student_4/img/a8.png);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.album_Box6 {
+    background-image: url(images_student_4/img/a4.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.artis_of_the {
+    height: 300px;
+    background-color: #F08080;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+}
+
+.best_artist{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ctext_p{
+    margin-top: 15px;
+}
+
+.artis_of_the1 {
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 15px;
+    background-image: url(images_student_4/img/Weekpic1.jpg);
+    background-size: cover;
+
+
+}
+
+.ctext{
+    /* margin-top: -50px; */
+}
+
+.a_pic {
+    background-image: url(images_student_4/img/qw.png);
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+
+}
+
+/* .video_contaner{
+    height: 300px;
+    width: 300px;
+} */
+.video1 {
+    height: 300px;
+    width: 700px;
+}
+
+ul {
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 100px;
+
+}
+
+.ctext {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(246, 220, 172);
+    margin-left: 20px;
+    /* margin-top: -50px; */
+}
+
+
+.imgweek {
+
+    /* background-image: url(weeknd.png); */
+    background-size: cover;
+    margin: 50px;
+
+    border-radius: 15px;
+
+}
+
+.hc {
+    font-size: 20px;
+    font-family: 'Bruno Ace SC';
+    color: #acbfbf;
+    margin-top: 0px;
+    margin-left: 20px;
+
+}
+
+.best_artist_topic {
+    font-size: 20px;
+    font-family: 'Bruno Ace SC';
+    color: #acbfbf;
+    margin-left: 20px;
+
+}
+.album_Box1:hover,
+.album_Box2:hover,
+.album_Box3:hover,
+.album_Box4:hover,
+.album_Box5:hover,
+.album_Box6:hover
+ {
+    transform: scale(1.09);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}

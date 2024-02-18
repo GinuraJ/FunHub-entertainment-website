@@ -1,0 +1,82 @@
+.page_editor_content{
+    max-width: 85%;
+    margin: 100px auto;
+}
+.page_editor_topic {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.photo_details{
+    background-color: black;
+    margin: 20px auto;
+    height: 300px;
+    display: flex;
+}
+.photo{
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    background-image: url(images_student_4/img/promodh.jpg);
+    background-size: cover;
+}
+.details{
+    margin: 10px;
+    width: 75%;
+    height: 280px;
+    margin-top: 25px;
+}
+.details li{
+    color: aliceblue;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+    font-size: 25px;
+    color: #adb3b7;
+}
+.details_headings{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 30px;
+    color: white;
+    
+}
+.tast_topic{
+    background-color: #A6ACAF;
+    background-color: black;
+    padding: 25px 10px;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    color: white;
+}
+.tasks{
+    background-color: #E5E7E9;
+    height: 375px;
+}
+.tasks_nav{
+    height: 425px;
+}
+.tast_discription{
+    padding: 10px 50px;
+    line-height: 2;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.task_navigate{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.tasks a {
+    text-decoration: none;
+    float: right;
+    margin-right: 30px;
+}
+.tasks a:hover{
+    color: black;
+    background-color: #A6ACAF;
+}
